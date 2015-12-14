@@ -115,6 +115,7 @@ class I2C
     uint8_t read(uint8_t, uint8_t, uint8_t*);
     uint8_t read(uint8_t, uint8_t, uint8_t, uint8_t*);
 
+    uint8_t read16(uint8_t, uint16_t, uint8_t, uint8_t*);
 
     uint8_t start();
     uint8_t sendAddress(uint8_t);
